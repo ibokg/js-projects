@@ -1,0 +1,31 @@
+body {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background .5s linear;
+    -webkit-transition: background .5s linear;
+    -moz-transition: background .5s linear;
+}
+#dateOutput {
+  text-align: center;
+  padding: 20px;
+  width: 30%;
+  margin:auto;
+  border-radius:10%;
+  background: #fff;
+  font: bold 20px Verdana, Tahoma, sans-serif;
+}
+#bgOutput {
+  text-align: center;
+  padding: 20px;
+  width: 30%;
+  margin:auto;
+  border-radius:10%;
+  background: #fff;
+  font: bold 20px Verdana, Tahoma, sans-serif;  
+}
